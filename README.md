@@ -1,45 +1,34 @@
 # Sales Insights Dashboard (Power BI)
 
-A Power BI dashboard for analysing retail sales performance using DAX measures and a star schema data model.
+A Power BI dashboard for analysing retail sales performance using DAX measures and a star-schema data model.
 
 ## 🎯 Objectives
 
-- Track key sales KPIs (revenue, quantity, profit).  
-- Analyse performance by **date, region, product and customer segment**.  
-- Identify top-performing categories/products and declining areas.  
+- Track key sales KPIs (revenue, quantity, profit).
+- Analyse performance by date, region, product and customer segment.
+- Identify top categories/products and declining areas.
 
 ## 🧱 Data & Modelling
 
-- Source: Sample transactional retail dataset (orders, customers, products, regions).  
-- Model: Star schema with **FactSales** and dimension tables (Date, Customer, Product, Region).  
-- Transformations done using Power Query (data types, relationships, calculated columns).
+- Source: Synthetic transactional retail dataset (orders, customers, products, regions).
+- Model: Star schema with a **FactSales** table and dimension tables (Date, Customer, Product, Region).
+- Cleaning & shaping done with Power Query.
 
-## 📊 Dashboard Highlights
+## 📊 Dashboard Features
 
-- Summary page with high-level KPIs and YoY trends.  
-- Category and product breakdowns with interactive filters.  
-- Region view to compare performance across locations.  
-- Top N products and customers by revenue/profit.
+- Summary page with high-level KPIs and YoY trends.
+- Product and category performance with interactive slicers.
+- Region comparison for revenue and profit.
+- Top N products and customers views.
 
-## 🛠️ Tools & Tech
+## 🛠️ Tools
 
-- **Power BI Desktop**  
-- **DAX** for measures (Total Sales, Profit Margin, % Growth, etc.)  
-- **Power Query** for cleaning and shaping the data.
+- Power BI Desktop
+- DAX measures
+- Power Query
 
 ## 🚀 How to Use
 
-1. Clone or download this repository.  
-2. Open `Sales_Insights_Dashboard.pbix` in **Power BI Desktop**.  
-3. Refresh the data (if a data source is connected) or explore the visuals with existing data.  
-
-## 📁 Project Structure
-
-- `Sales_Insights_Dashboard.pbix` – main Power BI report  
-- `data/` – sample dataset (if included)  
-- `README.md` – project documentation  
-
-## ✅ Key Outcomes
-
-- Clear view of sales performance across multiple dimensions.  
-- Reusable model and layout for similar retail reporting needs.  
+1. Clone or download this repo.
+2. Open `Sales_Insights_Dashboard.pbix` in Power BI Desktop.
+3. Explore the report or connect it to your own data.
